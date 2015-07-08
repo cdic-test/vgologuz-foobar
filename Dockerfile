@@ -6,3 +6,4 @@ RUN yum install -y dnf dnf-plugins-core \
 RUN dnf copr enable -y msuchy/copr
 ### DOPR END
 
+RUN echo "HELLO WORLD"
